@@ -29,6 +29,16 @@ cd wallet-finder-v3
 go run main.go
 ```
 
+and add txt file from address
+for example 
+
+```bash
+Address: 395KkubY9rc7Q2gj6QV5cfnvTjLRH31HLz   
+Address: 39WbFt9bCDsbCRtknXCXWYSg4oNXh5TkqS    
+Address: 168ZYsKHQi9BH6yh9oSMprvDpDNkh7uitj   
+Address: 1GCHdhb7e82RNp9kNLeMSBafdcNrat7Zhf    
+```
+
 ## Usage
 
 To run the application:
