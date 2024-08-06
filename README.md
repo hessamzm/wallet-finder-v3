@@ -18,7 +18,21 @@ Welcome to the repository of a simple yet effective Wallet Finder application wr
   - Guidelines for contributing code or suggesting improvements to the project
   
 - [License](https://github.bonus.io/licenses/) (MIT License used in this repository)
-  
+## PerInstallation
+we use mysql and find ther in dbclient
+in this case i use very sample database
+```code
+
+  // use : username:password@conectiontype(database url)/name of database ?[option]
+	dsn := "root:root@tcp(127.0.0.1:8889)/finderv3?charset=utf8mb4&parseTime=True&loc=Local"
+	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+	if err != nil {
+		panic(err)
+	}
+
+	return db
+```
+
 ## Installation
 
 To install all dependencies, open your terminal and run:
